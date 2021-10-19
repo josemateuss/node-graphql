@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Ana Torre",
+      "active": true,
+      "email": "a@a.com",
+      "role": 1
+    },
+    {
+      "id": 2,
+      "name": "Gabriel Costa",
+      "active": true,
+      "email": "g@g.com",
+      "role": 1
+    },
+    {
+      "id": 3,
+      "name": "Flavia Lins",
+      "active": true,
+      "email": "f@f.com",
+      "role": 1
+    },
+    {
+      "id": 4,
+      "name": "Carlos Marques",
+      "active": true,
+      "email": "c@c.com",
+      "role": 2
+    },
+    {
+      "id": 5,
+      "name": "Silvia Souza",
+      "active": true,
+      "email": "s@s.com",
+      "role": 2
+    },
+    {
+      "id": 6,
+      "name": "Marcia Silva",
+      "active": true,
+      "email": "m@m.com",
+      "role": 2
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "type": "STUDENT"
+    },
+    {
+      "id": 2,
+      "type": "TEACHER"
+    },
+    {
+      "id": 3,
+      "type": "COORDINATION"
+    }
+  ]
+}

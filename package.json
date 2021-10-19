@@ -1,0 +1,28 @@
+{
+  "name": "study-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,json,graphql ./api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josemateuss/node-graphql.git"
+  },
+  "keywords": [],
+  "author": "josemateuss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josemateuss/node-graphql/issues"
+  },
+  "homepage": "https://github.com/josemateuss/node-graphql#readme",
+  "dependencies": {
+    "apollo-server": "^3.4.0",
+    "graphql": "^15.6.1",
+    "graphql-tools": "^8.2.0",
+    "json-server": "^0.16.1",
+    "nodemon": "^2.0.4"
+  }
+}
