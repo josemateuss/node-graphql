@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/josemateuss/node-graphql#readme",
   "dependencies": {
+    "apollo-datasource-rest": "^3.3.0",
     "apollo-server": "^3.4.0",
     "graphql": "^15.6.1",
     "graphql-tools": "^8.2.0",

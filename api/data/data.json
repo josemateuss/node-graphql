@@ -1,10 +1,12 @@
 {
   "users": [
     {
-      "id": 2,
+      "id": 1,
       "name": "Ana Torre",
       "active": true,
       "email": "a@a.com",
+      "age": 23,
+      "height": 1.56,
       "role": 1
     },
     {
@@ -12,6 +14,8 @@
       "name": "Gabriel Costa",
       "active": true,
       "email": "g@g.com",
+      "age": 23,
+      "height": 1.79,
       "role": 1
     },
     {
@@ -19,6 +23,8 @@
       "name": "Flavia Lins",
       "active": true,
       "email": "f@f.com",
+      "age": 23,
+      "height": 1.66,
       "role": 1
     },
     {
@@ -26,6 +32,8 @@
       "name": "Carlos Marques",
       "active": true,
       "email": "c@c.com",
+      "age": 26,
+      "height": 1.92,
       "role": 2
     },
     {
@@ -33,6 +41,8 @@
       "name": "Silvia Souza",
       "active": true,
       "email": "s@s.com",
+      "age": 23,
+      "height": 1.61,
       "role": 2
     },
     {
@@ -40,7 +50,9 @@
       "name": "Marcia Silva",
       "active": true,
       "email": "m@m.com",
-      "role": 2
+      "age": 57,
+      "height": 1.64,
+      "role": 3
     }
   ],
   "roles": [
@@ -55,6 +67,38 @@
     {
       "id": 3,
       "type": "COORDINATION"
+    }
+  ],
+  "phones": [
+    {
+      "id": 1,
+      "user": 1,
+      "number": "(11) 99999-8888"
+    },
+    {
+      "id": 2,
+      "user": 2,
+      "number": "(21) 98888-7777"
+    },
+    {
+      "id": 3,
+      "user": 3,
+      "number": "(61) 97777-6666"
+    },
+    {
+      "id": 4,
+      "user": 4,
+      "number": "(61) 94444-3333"
+    },
+    {
+      "id": 5,
+      "user": 5,
+      "number": "(61) 95555-4444"
+    },
+    {
+      "id": 6,
+      "user": 1,
+      "number": "(61) 96666-5555"
     }
   ]
 }
