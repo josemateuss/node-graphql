@@ -1,3 +1,4 @@
 node_modules
 /.idea
-queries.txt
+*.txt
+*.sql

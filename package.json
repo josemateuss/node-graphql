@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/josemateuss/node-graphql.git"
   },
-  "keywords": ["graphql", "node", "js"],
+  "keywords": [
+    "graphql",
+    "node",
+    "js"
+  ],
   "author": "josemateuss",
   "license": "ISC",
   "bugs": {
@@ -24,6 +28,7 @@
     "graphql": "^15.6.1",
     "graphql-tools": "^8.2.0",
     "json-server": "^0.16.1",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "sqlite3": "^5.0.2"
   }
 }
