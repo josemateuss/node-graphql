@@ -26,6 +26,14 @@ const userSchema = gql `
         users: [User]
         user(id: ID!): User!
     }
+
+    type Mutation {
+        registerUser(name: String!, active: Boolean!, email: String!, age: Int!, height: Float!,
+        role: String!, phones: [String]): User!
+        updateUser(id: ID!, name: String!, active: Boolean!, email: String!, age: Int!, height: Float!,
+        role: String!, phones: [String]): User!
+        deleteUser(id: ID!): ID!
+    }
 `
 
 module.exports = userSchema

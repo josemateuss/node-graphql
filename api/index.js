@@ -9,9 +9,9 @@ const resolvers = [ userResolvers ]
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-  dataSources : () => {
+  dataSources: () => {
     return {
-      usersAPI : new UsersAPI()
+      usersAPI: new UsersAPI()
     }
   }
 })

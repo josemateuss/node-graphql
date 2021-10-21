@@ -53,6 +53,15 @@
       "age": 57,
       "height": 1.64,
       "role": 3
+    },
+    {
+      "id": 7,
+      "name": "José Mateus",
+      "email": "mateus@git.com",
+      "age": 25,
+      "height": 174,
+      "active": true,
+      "role": 3
     }
   ],
   "roles": [
@@ -99,6 +108,16 @@
       "id": 6,
       "user": 1,
       "number": "(61) 96666-5555"
+    },
+    {
+      "user": 7,
+      "number": "(61) 99432-1000",
+      "id": 7
+    },
+    {
+      "user": 7,
+      "number": "(61) 3333-4444",
+      "id": 8
     }
   ]
 }
