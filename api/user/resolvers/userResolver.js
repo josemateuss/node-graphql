@@ -2,10 +2,10 @@ const { GraphQLScalarType } = require('graphql')
 
 const userResolvers = {
   RolesType: {
-    STUDENT: "STUDENT",
-    TEACHER: "TEACHER",
-    COORDINATION: "COORDINATION",
-    // DIRECTOR: "CODE-001"
+    STUDENT: 'STUDENT',
+    TEACHER: 'TEACHER',
+    COORDINATION: 'COORDINATION',
+    // DIRECTOR: 'CODE-001'
   },
   DateTime: new GraphQLScalarType({
     name: 'DateTime',
@@ -19,7 +19,7 @@ const userResolvers = {
     user: (root, { id }, { dataSources }) => dataSources.usersAPI.getUserById(id)
   },
   Mutation: {
-    registerUser: async (root, user, { dataSources }) => dataSources.usersAPI.registerUser(user),
+    registerUser: async (root, { user }, { dataSources }) => dataSources.usersAPI.registerUser(user),
     updateUser: async (root, data, { dataSources }) => dataSources.usersAPI.updateUser(data),
     deleteUser: async (root, { id }, { dataSources }) => dataSources.usersAPI.deleteUser(id)
   }
