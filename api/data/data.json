@@ -62,6 +62,16 @@
       "height": 174,
       "active": true,
       "role": 3
+    },
+    {
+      "id": 8,
+      "name": "Dominic Toretto",
+      "email": "toretto@graphql.com",
+      "age": 40,
+      "height": 182,
+      "active": true,
+      "createdAt": "2021-10-21T00:00:00.000Z",
+      "role": 1
     }
   ],
   "roles": [
@@ -118,6 +128,16 @@
       "user": 7,
       "number": "(61) 3333-4444",
       "id": 8
+    },
+    {
+      "user": 8,
+      "number": "(67) 97454-4545",
+      "id": 9
+    },
+    {
+      "user": 8,
+      "number": "(67) 8888-1111",
+      "id": 10
     }
   ]
 }

@@ -34,7 +34,7 @@ class UserAPI extends RESTDataSource {
     const role = await this.get(`/roles?type=${user.role}`)
 
     await this.post('users', { id: user.id, name: user.name, email: user.email, age: user.age,
-      height: user.height, active: user.active, role : role[0].id })
+      height: user.height, active: user.active, createdAt: user.createdAt, role : role[0].id })
 
     user.phones.map(async phone => (
       await this.post('phones', { user: user.id, number: phone })
