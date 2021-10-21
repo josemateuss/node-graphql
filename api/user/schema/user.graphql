@@ -13,6 +13,7 @@ const userSchema = gql `
         role: Role!
         phones: [Phone!]!
         createdAt: DateTime
+        updatedAt: DateTime
     }
 
     input UserInput {
@@ -24,6 +25,7 @@ const userSchema = gql `
         role: RolesType
         phones: [PhoneInput]
         createdAt: DateTime
+        updatedAt: DateTime
     }
 
     input PhoneInput {

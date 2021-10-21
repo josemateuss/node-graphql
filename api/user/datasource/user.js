@@ -54,7 +54,7 @@ class UserAPI extends RESTDataSource {
     const user = data.user
     const role = await this.get(`/roles?type=${user.role}`)
     await this.put(`users/${data.id}`, { id: data.id, name: user.name, email: user.email,
-      age: user.age, height: user.height, active: user.active, role: role[0].id })
+      age: user.age, height: user.height, active: user.active, updatedAt: user.updatedAt, role: role[0].id })
     return ({
       ...this.customResponse,
       user: {
